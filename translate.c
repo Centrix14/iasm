@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+ * The file containing the translator function.
+ * v0.1 13.09.2019
+ * by Centrix
+ */
+
 int find(char *list[], char *str, int range) {
 	for ( int i = 0; i < range; i++ )
 		if ( !strcmp(list[i], str) ) return i;
